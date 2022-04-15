@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Encriptador Challenge </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+   
+   <main>
+       <img src="img/Logo.png" alt="logo" class="logo">
+       <div><textarea name="textarea" rows="20" cols="50" class="textarea" id="textarea" placeholder="Ingrese el texto aqu&iacute;"></textarea>
+        <p class="aviso">&#1060;Solo letras minúsculas y sin acentos</p>
+        <div class="frame">
+            <button type="submit" class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="submit" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+       <div><canvas id="rectangulo"></canvas>
+            <img src="img/Muneco.png" alt="" class="muneco" name="imagencodificado">
+            <!--<h3 class="titulo-muneco" id="codificado">Ningún mensaje fue encontrado</h3>-->
+            <textarea name="textarea2" rows="20" cols="50" class="textarea2" id="codificado">Ningún mensaje fue encontrado</textarea>
+            <p class="parrafo-muneco" id="ocultar">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button type="submit" class="copiar" onclick="copiar()" value="copiar">Copiar</button>
+        </div>
+   </main>
+   <footer><p>Diseñado Por <a href="https://github.com/osukaru2010">Osukaru2010</a></href></p></footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/javascript.js"></script>
+    
+  </body>
+</html>
